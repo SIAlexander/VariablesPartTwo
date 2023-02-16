@@ -96,7 +96,7 @@ public class Main {
                 + passWillDays250 + " дней");
         System.out.println("Если спортсмен будет терять каждый день по 500 грамм, уйдет "
                 + passWillDays500 + " дней");
-        int averageNumberDays = ((passWillDays250 + passWillDays500) / 2);
+        double averageNumberDays = ((totalWeightLose * 1000) / ((weightLose250 + weightLose500) / 2D));
         System.out.println("В среднем может потребоваться " + averageNumberDays + " день");
     }
     public static void task8(){
